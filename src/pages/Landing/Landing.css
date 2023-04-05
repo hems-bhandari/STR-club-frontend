@@ -1,0 +1,64 @@
+
+
+.content{
+  
+    padding: 20px;
+    margin: 20% 20%;
+    font-family: "overpass";
+
+}
+
+.landing  button{
+    background-color:#124D87 ;
+    color: white !important;
+    padding: 10px;
+    font-family: monospace;
+    border: none;
+}
+
+.landing{
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: black;
+}
+.landing a {
+    text-decoration: none !important;
+    font-size: 14px;
+    color: #124D87;
+    
+}
+.landing .image img{
+    border-radius: 40px;
+    height: 90%;
+    box-shadow:  10px 10px 10px #ccc;
+}
+.content h1{
+    font-size: 80px;
+    text-overflow:ellipsis;
+}
+
+.content p{
+    color: #124D87;
+    margin-left: 10px;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .content{
+        position: absolute;
+        left: 5%;
+        top : 10%;
+        padding: 5px;
+        margin: 5;
+    
+    
+    }
+    
+    .content h1{
+        font-size: 60px;
+        text-overflow:ellipsis;
+        width: 90%;
+    }
+  }

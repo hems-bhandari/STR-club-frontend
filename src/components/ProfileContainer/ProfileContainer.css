@@ -1,0 +1,21 @@
+
+
+.ProfileContainer{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+
+
+#name{
+    font-size: 20px;
+    font-weight: 600;
+}
+#designation{
+    font-size: 16px;
+}
+
+.memberContainer{
+    text-align: center;
+}

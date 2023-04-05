@@ -1,0 +1,103 @@
+.container{
+    display: block;
+}
+.container > h1{
+    text-align: center;
+    padding: 50px;
+    color: white;
+    background-color: rgb(8, 29, 36);
+    transform: skew(-5deg);
+}
+
+
+
+.container .coordinators{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid #eee;
+    padding: 10px;
+    font-size: 20px;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    
+
+}
+
+
+.container .coordinators img{
+    height: 30vh;
+    width: 30vh;
+    border-radius: 50%;
+    object-fit: cover;
+  
+}
+.container .coordinators .coordinator{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    margin: auto;
+    
+
+   
+}
+
+.container .coordinators .coordinator h3{
+    margin: 40px auto ;
+    font-family: "";
+}
+
+.ProfileHolder{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin: auto;
+    
+}
+.ProfileHolder .executive{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px;
+}
+
+
+
+.ProfileHolder img{
+    border-radius: 50%;
+    object-fit: contain;
+}
+.ProfileContainer{
+    display: block;
+    text-align: center;
+}
+
+#name{
+    font-size: 20px;
+    font-weight: 600;
+}
+#designation{
+    font-size: 16px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .container .coordinators{
+        display: grid;
+        grid-template-columns: 1fr ;
+       
+        
+    
+    }
+
+
+   
+  }
+  @media screen and (max-width: 1000px) {
+   
+.ProfileHolder{
+    display: grid;
+    grid-template-columns: 1fr ;
+    align-items: center;
+}
+   
+  }

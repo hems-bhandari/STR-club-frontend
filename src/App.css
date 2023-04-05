@@ -1,0 +1,56 @@
+
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+a {
+    text-decoration: none !important;
+    font-size: 18px;
+    color: rgb(8, 29, 36);
+}
+
+a:hover{
+    color: white !important;
+}
+
+button#primary{
+    background: none;
+    color: rgb(8, 29, 36);
+    border: 1px solid rgb(8, 29, 36);
+    padding: 10px;
+    border-radius: 20px;
+}
+button#primary:hover{
+    background-color: rgb(8, 29, 36);
+    transition: 0.4s;
+    color: white !important;
+}
+
+.box {
+   
+    padding: 20px;
+    border: 1px solid #eee;
+    margin: 1% 20px;
+    box-shadow: 5px  10px  20px #eee;
+    align-items: center;
+    text-overflow: ellipsis;
+}
+
+
+.page-header{
+    text-align: center;
+    padding: 50px;
+    color: white;
+    background-color: rgb(8, 29, 36);
+    transform: skew(-5deg);
+    width: 50%;
+    margin: 50px auto;
+}
+
+
+h1{
+    font-family: "overpass";
+}

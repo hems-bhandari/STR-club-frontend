@@ -1,0 +1,50 @@
+.postBox {
+   
+    border: 1px solid #eee;
+    margin: 3% 20px;
+    box-shadow: 5px  10px  20px #eee;
+    align-items: center;
+    text-overflow: ellipsis;
+    height: 70vh;
+    width: 40vh;
+    transition: 0.3s;
+}
+.postBox:hover{
+    cursor: pointer;
+    transform: translateY(-20px);
+    transition: 0.3s;
+}
+
+.postBox .image{
+    width:100%;
+    height:300px;
+    object-fit: cover;
+}
+
+.postBox img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.postBox .title{
+    font-size: 30px;
+    font-family: "Libre Franklin";
+}
+
+.postBox .stuffs{
+    padding: 30px;
+}
+
+.postBox .stuffs .button{
+    margin-top: 5px;
+    align-items: center;
+   display: flex;
+   justify-content: space-between;
+}
+
+.postBox .date{
+    font-family: rgb(214, 209, 209);
+    font-style: italic;
+    margin-top: 10px;
+}
